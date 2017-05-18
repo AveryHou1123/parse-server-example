@@ -4,7 +4,7 @@ Parse.Cloud.define('hello', function(req, res) {
 });
 
 
-Parse.Cloud.define("logUserActivity", function(request, response) {
+Parse.Cloud.define("logUserAction", function(request, response) {
 	
 	var IGO_UserAction = Parse.Object.extend("IGO_UserAction");
 	var userAction = new IGO_UserAction();
