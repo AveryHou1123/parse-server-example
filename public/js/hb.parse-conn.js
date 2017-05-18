@@ -5,4 +5,5 @@ var jskey = "40f69cee-32d0-4f76-9da6-4e468a8b2be4";
 //Parse.initialize(appid, jskey);
 
 Parse.initialize(appid);
-Parse.serverURL = 'http://go94igo.herokuapp.com/parse';
+Parse.serverURL = 'https://go94igo.herokuapp.com/parse';
+
