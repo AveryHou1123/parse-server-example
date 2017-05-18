@@ -1,6 +1,6 @@
 //建立訂單
 function logUserAction(pageName, userFrom) {
-	Parse.Cloud.run("logUserActivity", 
+	Parse.Cloud.run("logUserAction", 
 		{	
 			pageName : pageName,
 			from : userFrom
