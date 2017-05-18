@@ -11,7 +11,7 @@ Parse.Cloud.define("logUserAction", function(request, response) {
 	userAction.set("page", request.params.pageName);
 	userAction.set("marketingType", request.params.from);
 	userAction.save(null,{
-		success: function(cartCreated){
+		success: function(objCreated){
 			response.success(true);
 	    },
 		error: function(err) {
